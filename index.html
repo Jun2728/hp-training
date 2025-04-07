@@ -4,24 +4,25 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="a.css">
-        <script src="common.js"> </script>
         <script src="index.js"> </script>
-        <title>DOM</title>
+        <title>Login form</title>
     </head>
     <body>
+      
         <div id="box">
             <div id="login_box">
                 <form>
                     <table>
                         <tr>
-                            <td>id:</td>
-                            <td><input id="id" placeholder="아이디" size="14"><br></td>
+                            <td>ID:</td>
+                            <td><input id="id" placeholder="아이디" size="20"><br></td>
                         </tr>
                         <tr>
-                            <td>pw:</td>
-                            <td><input id="pw" type="password" placeholder="암호" size="14"><br></td>
+                            <td>PW:</td>
+                            <td><input id="pw" type="password" placeholder="암호" size="20"><br></td>
                         </tr>
                     </table>
+                    <br>
                     <input type="button" onclick="login()" value="로그인">
                     <a href="reg_member.html"> <input type="button" value="회원가입"> </a>
                     <div id="x"></div>
